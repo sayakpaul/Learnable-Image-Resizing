@@ -9,7 +9,7 @@ The diagram presents the proposed learnable resizer module:
 
 <center>
 <img src="https://i.ibb.co/gJYtSs0/image.png" width="750"></img><br>
-<small>Source: Original Paper</small>
+<sup>Source: Original Paper</sup>
 </center>
 <br>
 
