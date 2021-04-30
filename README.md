@@ -38,5 +38,18 @@ Both the models were trained for only 10 epochs from the same initial checkpoint
 
 You can reproduce these results with the model weights provided [here](https://github.com/sayakpaul/Learnable-Image-Resizing/releases/tag/v1.0.0).
 
+## Paper citation
+
+```
+@misc{talebi2021learning,
+      title={Learning to Resize Images for Computer Vision Tasks}, 
+      author={Hossein Talebi and Peyman Milanfar},
+      year={2021},
+      eprint={2103.09950},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 ## Acknowledgements
 * [ML-GDE program](https://developers.google.com/programs/experts/) for providing GCP credit support. 
