@@ -5,12 +5,11 @@ Accompanying blog post: [Learning to Resize in Computer Vision](http://keras.io/
 
 The above-mentioned paper proposes a simple framework to optimally learning representations for a given network architecture and given image resolution (such as 224x224). The authors find that the representations that are more coherent with the human perception system _may not always_ improve the performance of vision models. Instead, optimizing the representations that are better suited for the models can substantially improve their performance. 
 
-The diagram presents the proposed learnable resizer module:
+The diagram presents the proposed learnable resizer module (source: original paper):
 
-<center>
-<img src="https://i.ibb.co/gJYtSs0/image.png" width="750"></img><br>
-<sup>Source: Original Paper</sup>
-</center>
+<div align="center">
+<img src="https://i.ibb.co/gJYtSs0/image.png" width="750"></img>
+</div>
 <br>
 
 Here's how the resized images look like after being passed through a learned resizer:
