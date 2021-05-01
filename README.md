@@ -1,7 +1,7 @@
 # Learnable-Image-Resizing
 TensorFlow 2 implementation of [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/abs/2103.09950v1) by Talebi et al.
 
-Accompanying blog post: [Learning to Resize in Computer Vision](http://keras.io/examples/vision/learnable_resizer/) (upcoming | [PR](https://github.com/keras-team/keras-io/pull/455)).
+Accompanying blog post: [Learning to Resize in Computer Vision](https://keras.io/examples/vision/learnable_resizer/) (upcoming | [PR](https://github.com/keras-team/keras-io/pull/455)).
 
 The above-mentioned paper proposes a simple framework to optimally learning representations for a given network architecture and given image resolution (such as 224x224). The authors find that the representations that are more coherent with the human perception system _may not always_ improve the performance of vision models. Instead, optimizing the representations that are better suited for the models can substantially improve their performance. 
 
