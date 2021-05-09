@@ -23,16 +23,16 @@ Here's how the resized images look like after being passed through a learned res
 The images may not make sense to our eyes in terms of their perceptual quality, but they help to improve the recognition performance of the vision models.
 
 ## About the notebooks
-* `Standard_Training.ipynb`: Shows how to train a DenseNet-121 on the Cats and Dogs dataset with bilinear resizing (224x224).
-* `Learnable_Resizer.ipynb`: Shows how to train the same network with the learnable resizing module included. 
+* `Standard_Training.ipynb`: Shows how to train a DenseNet-121 on the Cats and Dogs dataset with bilinear resizing (150 x 150).
+* `Learnable_Resizer.ipynb`: Shows how to train the same network with the learnable resizing module included. Here, the inputs are first resized to 300 x 300 and then the learnable resizer module helps learn optimal representations for 150 x 150. 
 
 These incorporate mixed-precision training along with distributed training. 
 
 ## Results
 |           Model           	| Number of  parameters (Million) 	| Top-1 accuracy 	|
 |:-------------------------:	|:-------------------------------:	|:--------------:	|
-|   With learnable resizer  	|             7.051717            	|      52.02     	|
-| Without learnable resizer 	|             7.039554            	|      50.3      	|
+|   With learnable resizer  	|             7.051717            	|      67.67%     	|
+| Without learnable resizer 	|             7.039554            	|      60.19%      	|
 
 Both the models were trained for only 10 epochs from the same initial checkpoint.
 
