@@ -20,7 +20,7 @@ Here's how the resized images look like after being passed through a learned res
 
 </div>
 
-The images may not make sense to our eyes in terms of their perceptual quality, but they help to improve the recognition performance of the vision models.
+On the left hand side, we see the outputs of an untrained learnable resizer. On the right, the outputs are from the same learnable resizer but with **10 epochs of training**. The images may not make sense to our eyes in terms of their perceptual quality, but they help to improve the recognition performance of the vision models.
 
 ## About the notebooks
 * `Standard_Training.ipynb`: Shows how to train a DenseNet-121 on the Cats and Dogs dataset with bilinear resizing (150 x 150).
