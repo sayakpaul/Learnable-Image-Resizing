@@ -41,13 +41,13 @@ You can reproduce these results with the model weights provided [here](https://g
 ## Paper citation
 
 ```
-@misc{talebi2021learning,
-      title={Learning to Resize Images for Computer Vision Tasks}, 
-      author={Hossein Talebi and Peyman Milanfar},
-      year={2021},
-      eprint={2103.09950},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Talebi_2021_ICCV,
+    author    = {Talebi, Hossein and Milanfar, Peyman},
+    title     = {Learning To Resize Images for Computer Vision Tasks},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {497-506}
 }
 ```
 
